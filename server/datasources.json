@@ -1,6 +1,13 @@
 {
-  "db": {
-    "name": "db",
+  "memory": {
+    "name": "memory",
     "connector": "memory"
+  },
+  "db": {
+    "host": "mohammadeslami-loopback-2436049",
+    "port": 27017,
+    "database": "devDB",
+    "name": "db",
+    "connector": "mongodb"
   }
 }
